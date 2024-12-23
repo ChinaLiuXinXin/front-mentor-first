@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+}
+
+p {
+  font-family: Figtree, Arial;
+  width: 310px;
+}
+
+.container {
+  background-color: #f4d04e;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container > div {
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-shadow: 8px 8px 0px black;
+          box-shadow: 8px 8px 0px black;
+}
+
+.learning-tag {
+  font-weight: 800;
+  padding: 10px;
+  width: 80px;
+  background-color: #f4d04e;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.blog > div {
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blog > div img {
+  height: 100%;
+  margin-right: 15px;
+}
+
+.blog > .publish-time {
+  margin-top: 0px;
+}
+
+.blog > h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 900;
+  font-family: Figtree, Arial;
+}
+
+.blog strong {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Figtree, Arial;
+}
+
+.detail {
+  color: #6b6b6b;
+  line-height: 25px;
+}
+/*# sourceMappingURL=style.css.map */

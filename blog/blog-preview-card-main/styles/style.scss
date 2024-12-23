@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+
+p {
+    font-family: Figtree, Arial;
+    width: 310px;
+}
+
+.container {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > div {
+        background-color: white;
+        border: 1px solid black;
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        box-shadow: 8px 8px 0px black;
+    }
+}
+
+.learning-tag {
+    font-weight: 800;
+    padding: 10px;
+    width: 80px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+.blog {
+    > div {
+        height: 35px;
+        display: flex;
+        align-items: center;
+        img {
+            height: 100%;
+            margin-right: 15px;
+        }
+    }
+    > .publish-time {
+        margin-top: 0px;
+    }
+    
+    > h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 900;
+        font-family: Figtree, Arial;
+
+    }
+    
+    strong {
+        font-size: 14px;
+        font-weight: 700;
+        font-family: Figtree, Arial;
+
+    }
+}
+
+.detail {
+    color: hsl(0, 0%, 42%);
+    line-height: 25px;
+}
