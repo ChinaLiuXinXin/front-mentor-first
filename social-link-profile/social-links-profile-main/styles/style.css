@@ -5,89 +5,55 @@ body {
 
 .container {
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  background-color: #141414;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  background-color: hsl(0, 0%, 8%);
+  justify-content: center;
+  align-items: center;
 }
-
 .container > div {
-  background-color: #1f1f1f;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  background-color: hsl(0, 0%, 12%);
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 40px;
   padding-bottom: 30px;
   border-radius: 15px;
 }
-
 .container > div img {
   width: 90px;
   border-radius: 50px;
 }
-
 .container > div .user-type {
-  color: white;
+  color: hsl(0, 0%, 100%);
   font-size: 14px;
 }
-
 .container > div .user-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
-
 .container > div .user-info > :nth-child(1) {
-  color: white;
+  color: hsl(0, 0%, 100%);
   font-size: 25px;
   margin-bottom: 0px;
 }
-
 .container > div .user-info > :nth-child(2) {
-  color: #c5f82a;
+  color: hsl(75, 94%, 57%);
   margin-top: 5px;
 }
-
 .container > div .user-links {
-  color: white;
+  color: hsl(0, 0%, 100%);
   font-size: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 115%;
 }
-
 .container > div .user-links > div {
-  background-color: #333333;
+  background-color: hsl(0, 0%, 20%);
   line-height: 40px;
   margin-top: 17px;
   text-align: center;
   border-radius: 7px;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

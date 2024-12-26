@@ -1,0 +1,98 @@
+// bordder-top line
+$Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+
+// font
+$Very-Dark-Blue: hsl(234, 12%, 34%);
+$Grayish-Blue: hsl(229, 6%, 66%);
+$Very-Light-Gray: hsl(0, 0%, 98%);
+
+
+body {
+    margin: 0;
+    background-color: $Very-Light-Gray;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", serif;
+    margin: 30px;
+    .modules {
+        box-shadow: 0px 5px 5px $Grayish-Blue;
+        background-color: $Very-Light-Gray;
+        border-radius: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        border-top-width: 3px;
+        border-top-style: solid;
+        width: 16em;
+        h3 {
+            color: $Very-Dark-Blue;
+            margin-bottom: 0;
+        }
+        p {
+            color: $Grayish-Blue;
+            font-size: 0.5em;
+            margin-bottom: 50px;
+        }
+        div {
+            text-align: right;
+        }
+    }
+
+    #team-builder {
+        border-top-color: $Red;
+    }
+
+    #supervisor {
+        border-top-color: $Cyan;
+
+    }
+
+    #karma {
+        border-top-color: $Orange;
+    }
+
+    #calculator {
+        border-top-color: $Blue;
+
+    }
+    #characteristic {
+        font-size:1.55em;
+        font-weight: 400;
+        color: $Grayish-Blue;
+        margin-bottom: 0;
+    }
+    #powered {
+        font-size: 1.6em;
+        color: $Very-Dark-Blue;
+        margin-top: 0;
+        margin-bottom: 0px;
+    }
+    #details {
+        color: $Grayish-Blue;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    #modules {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+}
+
+@media (min-width: 376px) {
+    .modules {
+        margin-left: 20px;
+    }
+    #details {
+        width: 35em;
+    }
+}
